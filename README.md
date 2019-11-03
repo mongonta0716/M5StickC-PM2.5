@@ -13,7 +13,14 @@ https://github.com/m5stack/M5Stack/tree/master/examples/Modules/PM2.5
 - Arduino-esp32 1.0.4
 - M5StickC Library 0.1.1
 
-# ●配線図(wireing diagram)
+# ●配線図(wiring diagram)
+
+★注意★
+図のM-BusはPM2.5モジュールのM-Busです。I2CとUARTが必要なのでGroveからUARTを取っています。
+
+★Notice★
+The M-Bus in the figure is a PM2.5 module M-Bus. Since PM2.5 requires I2C and UART, I take UART from Grove.
+
 ![image](https://github.com/mongonta0716/M5StickC-PM2.5/blob/master/jpg/M5StickC-PM2.5.jpg)
 
 
